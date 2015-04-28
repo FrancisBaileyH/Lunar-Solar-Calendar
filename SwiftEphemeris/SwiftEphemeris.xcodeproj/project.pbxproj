@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A8B9971AB92FDC00BD58AF /* libSwiftEphemeris.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A8B98B1AB92FDB00BD58AF /* libSwiftEphemeris.a */; };
+		04A8B9C31AB9306200BD58AF /* swecl.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B9AE1AB9306200BD58AF /* swecl.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		04A8B9C41AB9306200BD58AF /* swedate.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B9AF1AB9306200BD58AF /* swedate.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		04A8B9C51AB9306200BD58AF /* swehel.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B9B11AB9306200BD58AF /* swehel.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		04A8B9C61AB9306200BD58AF /* swehouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B9B21AB9306200BD58AF /* swehouse.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		04A8B9C71AB9306200BD58AF /* swejpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B9B41AB9306200BD58AF /* swejpl.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		04A8B9C81AB9306200BD58AF /* swemmoon.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B9B61AB9306200BD58AF /* swemmoon.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		04A8B9C91AB9306200BD58AF /* swemplan.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B9B71AB9306200BD58AF /* swemplan.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		04A8B9CD1AB9306200BD58AF /* swephlib.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B9C01AB9306200BD58AF /* swephlib.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		04A8B9D21AB9313D00BD58AF /* swedate.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9B01AB9306200BD58AF /* swedate.h */; };
+		04A8B9D31AB9314B00BD58AF /* swehouse.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9B31AB9306200BD58AF /* swehouse.h */; };
+		04A8B9D41AB9316400BD58AF /* swejpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9B51AB9306200BD58AF /* swejpl.h */; };
+		04A8B9D51AB9317400BD58AF /* swenut2000a.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9B91AB9306200BD58AF /* swenut2000a.h */; };
+		04A8B9D61AB9317E00BD58AF /* sweodef.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9BA1AB9306200BD58AF /* sweodef.h */; };
+		04A8B9D71AB9318D00BD58AF /* swepcalc.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9BC1AB9306200BD58AF /* swepcalc.h */; };
+		04A8B9D81AB9319600BD58AF /* sweph.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9BE1AB9306200BD58AF /* sweph.h */; };
+		04A8B9D91AB9319D00BD58AF /* swephexp.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9BF1AB9306200BD58AF /* swephexp.h */; };
+		04A8B9DA1AB931A600BD58AF /* swephlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9C11AB9306200BD58AF /* swephlib.h */; };
+		04A8B9DC1AB9325E00BD58AF /* swedll.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A8B9DB1AB9325E00BD58AF /* swedll.h */; };
+		04A8B9E11AB9365000BD58AF /* sweph.c in Sources */ = {isa = PBXBuildFile; fileRef = 04A8B9E01AB9365000BD58AF /* sweph.c */; settings = {COMPILER_FLAGS = "-w"; }; };
+		04A8BAE31AC0C8D300BD58AF /* swephexp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04A8B9BF1AB9306200BD58AF /* swephexp.h */; };
+		04A8BAE41AC0C8E000BD58AF /* sweodef.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04A8B9BA1AB9306200BD58AF /* sweodef.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A8B9981AB92FDC00BD58AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A8B9831AB92FDB00BD58AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A8B98A1AB92FDB00BD58AF;
+			remoteInfo = SwiftEphemeris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04A8BAE21AC0C8C800BD58AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				04A8BAE41AC0C8E000BD58AF /* sweodef.h in CopyFiles */,
+				04A8BAE31AC0C8D300BD58AF /* swephexp.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04A8B98B1AB92FDB00BD58AF /* libSwiftEphemeris.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftEphemeris.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A8B9961AB92FDC00BD58AF /* SwiftEphemerisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEphemerisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A8B99C1AB92FDC00BD58AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A8B9AE1AB9306200BD58AF /* swecl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swecl.c; sourceTree = "<group>"; };
+		04A8B9AF1AB9306200BD58AF /* swedate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swedate.c; sourceTree = "<group>"; };
+		04A8B9B01AB9306200BD58AF /* swedate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swedate.h; sourceTree = "<group>"; };
+		04A8B9B11AB9306200BD58AF /* swehel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swehel.c; sourceTree = "<group>"; };
+		04A8B9B21AB9306200BD58AF /* swehouse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swehouse.c; sourceTree = "<group>"; };
+		04A8B9B31AB9306200BD58AF /* swehouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swehouse.h; sourceTree = "<group>"; };
+		04A8B9B41AB9306200BD58AF /* swejpl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swejpl.c; sourceTree = "<group>"; };
+		04A8B9B51AB9306200BD58AF /* swejpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swejpl.h; sourceTree = "<group>"; };
+		04A8B9B61AB9306200BD58AF /* swemmoon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swemmoon.c; sourceTree = "<group>"; };
+		04A8B9B71AB9306200BD58AF /* swemplan.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swemplan.c; sourceTree = "<group>"; };
+		04A8B9B81AB9306200BD58AF /* swemptab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swemptab.c; sourceTree = "<group>"; };
+		04A8B9B91AB9306200BD58AF /* swenut2000a.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swenut2000a.h; sourceTree = "<group>"; };
+		04A8B9BA1AB9306200BD58AF /* sweodef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweodef.h; sourceTree = "<group>"; };
+		04A8B9BB1AB9306200BD58AF /* swepcalc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swepcalc.c; sourceTree = "<group>"; };
+		04A8B9BC1AB9306200BD58AF /* swepcalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swepcalc.h; sourceTree = "<group>"; };
+		04A8B9BE1AB9306200BD58AF /* sweph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sweph.h; sourceTree = "<group>"; };
+		04A8B9BF1AB9306200BD58AF /* swephexp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swephexp.h; sourceTree = "<group>"; };
+		04A8B9C01AB9306200BD58AF /* swephlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swephlib.c; sourceTree = "<group>"; };
+		04A8B9C11AB9306200BD58AF /* swephlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swephlib.h; sourceTree = "<group>"; };
+		04A8B9C21AB9306200BD58AF /* swetest.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = swetest.c; sourceTree = "<group>"; };
+		04A8B9DB1AB9325E00BD58AF /* swedll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swedll.h; sourceTree = "<group>"; };
+		04A8B9E01AB9365000BD58AF /* sweph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sweph.c; sourceTree = "<group>"; };
+		04A8B9E41AB938D000BD58AF /* seasm36.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seasm36.se1; sourceTree = "<group>"; };
+		04A8B9E51AB938D000BD58AF /* seplm36.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seplm36.se1; sourceTree = "<group>"; };
+		04A8B9E61AB938D000BD58AF /* semom36.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semom36.se1; sourceTree = "<group>"; };
+		04A8B9E71AB938D000BD58AF /* seas_30.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_30.se1; sourceTree = "<group>"; };
+		04A8B9E81AB938D000BD58AF /* semo_30.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_30.se1; sourceTree = "<group>"; };
+		04A8B9E91AB938D000BD58AF /* sepl_30.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_30.se1; sourceTree = "<group>"; };
+		04A8B9EA1AB938D000BD58AF /* seasm54.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seasm54.se1; sourceTree = "<group>"; };
+		04A8B9EB1AB938D000BD58AF /* semom54.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semom54.se1; sourceTree = "<group>"; };
+		04A8B9EC1AB938D000BD58AF /* seplm54.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seplm54.se1; sourceTree = "<group>"; };
+		04A8B9ED1AB938D000BD58AF /* seasm48.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seasm48.se1; sourceTree = "<group>"; };
+		04A8B9EE1AB938D000BD58AF /* semom48.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semom48.se1; sourceTree = "<group>"; };
+		04A8B9EF1AB938D000BD58AF /* seplm48.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seplm48.se1; sourceTree = "<group>"; };
+		04A8B9F01AB938D000BD58AF /* seasm42.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seasm42.se1; sourceTree = "<group>"; };
+		04A8B9F11AB938D000BD58AF /* semom42.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semom42.se1; sourceTree = "<group>"; };
+		04A8B9F21AB938D000BD58AF /* seplm42.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seplm42.se1; sourceTree = "<group>"; };
+		04A8B9F31AB938D000BD58AF /* seasm30.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seasm30.se1; sourceTree = "<group>"; };
+		04A8B9F41AB938D000BD58AF /* semom30.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semom30.se1; sourceTree = "<group>"; };
+		04A8B9F51AB938D000BD58AF /* seplm30.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seplm30.se1; sourceTree = "<group>"; };
+		04A8B9F61AB938D000BD58AF /* seasm24.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seasm24.se1; sourceTree = "<group>"; };
+		04A8B9F71AB938D000BD58AF /* semom24.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semom24.se1; sourceTree = "<group>"; };
+		04A8B9F81AB938D000BD58AF /* seplm24.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seplm24.se1; sourceTree = "<group>"; };
+		04A8B9F91AB938D000BD58AF /* seasm18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seasm18.se1; sourceTree = "<group>"; };
+		04A8B9FA1AB938D000BD58AF /* semom18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semom18.se1; sourceTree = "<group>"; };
+		04A8B9FB1AB938D000BD58AF /* seplm18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seplm18.se1; sourceTree = "<group>"; };
+		04A8B9FC1AB938D000BD58AF /* seasm12.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seasm12.se1; sourceTree = "<group>"; };
+		04A8B9FD1AB938D000BD58AF /* semom12.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semom12.se1; sourceTree = "<group>"; };
+		04A8B9FE1AB938D000BD58AF /* seplm12.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seplm12.se1; sourceTree = "<group>"; };
+		04A8B9FF1AB938D000BD58AF /* seasm06.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seasm06.se1; sourceTree = "<group>"; };
+		04A8BA001AB938D000BD58AF /* semom06.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semom06.se1; sourceTree = "<group>"; };
+		04A8BA011AB938D000BD58AF /* seplm06.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seplm06.se1; sourceTree = "<group>"; };
+		04A8BA021AB938D000BD58AF /* seas_48.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_48.se1; sourceTree = "<group>"; };
+		04A8BA031AB938D000BD58AF /* semo_48.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_48.se1; sourceTree = "<group>"; };
+		04A8BA041AB938D000BD58AF /* sepl_48.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_48.se1; sourceTree = "<group>"; };
+		04A8BA051AB938D000BD58AF /* seas_42.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_42.se1; sourceTree = "<group>"; };
+		04A8BA061AB938D000BD58AF /* semo_42.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_42.se1; sourceTree = "<group>"; };
+		04A8BA071AB938D000BD58AF /* sepl_42.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_42.se1; sourceTree = "<group>"; };
+		04A8BA081AB938D000BD58AF /* seas_36.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_36.se1; sourceTree = "<group>"; };
+		04A8BA091AB938D000BD58AF /* semo_36.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_36.se1; sourceTree = "<group>"; };
+		04A8BA0A1AB938D000BD58AF /* sepl_36.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_36.se1; sourceTree = "<group>"; };
+		04A8BA0B1AB938D000BD58AF /* seas_24.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_24.se1; sourceTree = "<group>"; };
+		04A8BA0C1AB938D000BD58AF /* semo_24.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_24.se1; sourceTree = "<group>"; };
+		04A8BA0D1AB938D000BD58AF /* sepl_24.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_24.se1; sourceTree = "<group>"; };
+		04A8BA0E1AB938D000BD58AF /* seas_18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_18.se1; sourceTree = "<group>"; };
+		04A8BA0F1AB938D100BD58AF /* semo_18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_18.se1; sourceTree = "<group>"; };
+		04A8BA101AB938D100BD58AF /* sepl_18.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_18.se1; sourceTree = "<group>"; };
+		04A8BA111AB938D100BD58AF /* seas_12.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_12.se1; sourceTree = "<group>"; };
+		04A8BA121AB938D100BD58AF /* semo_12.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_12.se1; sourceTree = "<group>"; };
+		04A8BA131AB938D100BD58AF /* sepl_12.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_12.se1; sourceTree = "<group>"; };
+		04A8BA141AB938D100BD58AF /* seas_06.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_06.se1; sourceTree = "<group>"; };
+		04A8BA151AB938D100BD58AF /* semo_06.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_06.se1; sourceTree = "<group>"; };
+		04A8BA161AB938D100BD58AF /* sepl_06.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_06.se1; sourceTree = "<group>"; };
+		04A8BA171AB938D100BD58AF /* seas_00.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = seas_00.se1; sourceTree = "<group>"; };
+		04A8BA181AB938D100BD58AF /* semo_00.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = semo_00.se1; sourceTree = "<group>"; };
+		04A8BA191AB938D100BD58AF /* sepl_00.se1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sepl_00.se1; sourceTree = "<group>"; };
+		04A8BA1A1AB938D100BD58AF /* fixstars.cat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fixstars.cat; sourceTree = "<group>"; };
+		04A8BA1B1AB938D100BD58AF /* LICENSE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.TXT; sourceTree = "<group>"; };
+		04A8BA1C1AB938D100BD58AF /* sedeltat.txt.inactive */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sedeltat.txt.inactive; sourceTree = "<group>"; };
+		04A8BA1D1AB938D100BD58AF /* sefstars.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sefstars.txt; sourceTree = "<group>"; };
+		04A8BA1E1AB938D100BD58AF /* seleapsec.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seleapsec.txt; sourceTree = "<group>"; };
+		04A8BA1F1AB938D100BD58AF /* seorbel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = seorbel.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A8B9881AB92FDB00BD58AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A8B9931AB92FDC00BD58AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A8B9971AB92FDC00BD58AF /* libSwiftEphemeris.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A8B9821AB92FDB00BD58AF = {
+			isa = PBXGroup;
+			children = (
+				04A8B9E31AB9387A00BD58AF /* Data */,
+				04A8B98D1AB92FDB00BD58AF /* SwiftEphemeris */,
+				04A8B99A1AB92FDC00BD58AF /* SwiftEphemerisTests */,
+				04A8B98C1AB92FDB00BD58AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A8B98C1AB92FDB00BD58AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A8B98B1AB92FDB00BD58AF /* libSwiftEphemeris.a */,
+				04A8B9961AB92FDC00BD58AF /* SwiftEphemerisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A8B98D1AB92FDB00BD58AF /* SwiftEphemeris */ = {
+			isa = PBXGroup;
+			children = (
+				04A8B9E01AB9365000BD58AF /* sweph.c */,
+				04A8B9DB1AB9325E00BD58AF /* swedll.h */,
+				04A8B9AE1AB9306200BD58AF /* swecl.c */,
+				04A8B9AF1AB9306200BD58AF /* swedate.c */,
+				04A8B9B01AB9306200BD58AF /* swedate.h */,
+				04A8B9B11AB9306200BD58AF /* swehel.c */,
+				04A8B9B21AB9306200BD58AF /* swehouse.c */,
+				04A8B9B31AB9306200BD58AF /* swehouse.h */,
+				04A8B9B41AB9306200BD58AF /* swejpl.c */,
+				04A8B9B51AB9306200BD58AF /* swejpl.h */,
+				04A8B9B61AB9306200BD58AF /* swemmoon.c */,
+				04A8B9B71AB9306200BD58AF /* swemplan.c */,
+				04A8B9B81AB9306200BD58AF /* swemptab.c */,
+				04A8B9B91AB9306200BD58AF /* swenut2000a.h */,
+				04A8B9BA1AB9306200BD58AF /* sweodef.h */,
+				04A8B9BB1AB9306200BD58AF /* swepcalc.c */,
+				04A8B9BC1AB9306200BD58AF /* swepcalc.h */,
+				04A8B9BE1AB9306200BD58AF /* sweph.h */,
+				04A8B9BF1AB9306200BD58AF /* swephexp.h */,
+				04A8B9C01AB9306200BD58AF /* swephlib.c */,
+				04A8B9C11AB9306200BD58AF /* swephlib.h */,
+				04A8B9C21AB9306200BD58AF /* swetest.c */,
+			);
+			path = SwiftEphemeris;
+			sourceTree = "<group>";
+		};
+		04A8B99A1AB92FDC00BD58AF /* SwiftEphemerisTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A8B99B1AB92FDC00BD58AF /* Supporting Files */,
+			);
+			path = SwiftEphemerisTests;
+			sourceTree = "<group>";
+		};
+		04A8B99B1AB92FDC00BD58AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A8B99C1AB92FDC00BD58AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A8B9E31AB9387A00BD58AF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				04A8B9E41AB938D000BD58AF /* seasm36.se1 */,
+				04A8B9E51AB938D000BD58AF /* seplm36.se1 */,
+				04A8B9E61AB938D000BD58AF /* semom36.se1 */,
+				04A8B9E71AB938D000BD58AF /* seas_30.se1 */,
+				04A8B9E81AB938D000BD58AF /* semo_30.se1 */,
+				04A8B9E91AB938D000BD58AF /* sepl_30.se1 */,
+				04A8B9EA1AB938D000BD58AF /* seasm54.se1 */,
+				04A8B9EB1AB938D000BD58AF /* semom54.se1 */,
+				04A8B9EC1AB938D000BD58AF /* seplm54.se1 */,
+				04A8B9ED1AB938D000BD58AF /* seasm48.se1 */,
+				04A8B9EE1AB938D000BD58AF /* semom48.se1 */,
+				04A8B9EF1AB938D000BD58AF /* seplm48.se1 */,
+				04A8B9F01AB938D000BD58AF /* seasm42.se1 */,
+				04A8B9F11AB938D000BD58AF /* semom42.se1 */,
+				04A8B9F21AB938D000BD58AF /* seplm42.se1 */,
+				04A8B9F31AB938D000BD58AF /* seasm30.se1 */,
+				04A8B9F41AB938D000BD58AF /* semom30.se1 */,
+				04A8B9F51AB938D000BD58AF /* seplm30.se1 */,
+				04A8B9F61AB938D000BD58AF /* seasm24.se1 */,
+				04A8B9F71AB938D000BD58AF /* semom24.se1 */,
+				04A8B9F81AB938D000BD58AF /* seplm24.se1 */,
+				04A8B9F91AB938D000BD58AF /* seasm18.se1 */,
+				04A8B9FA1AB938D000BD58AF /* semom18.se1 */,
+				04A8B9FB1AB938D000BD58AF /* seplm18.se1 */,
+				04A8B9FC1AB938D000BD58AF /* seasm12.se1 */,
+				04A8B9FD1AB938D000BD58AF /* semom12.se1 */,
+				04A8B9FE1AB938D000BD58AF /* seplm12.se1 */,
+				04A8B9FF1AB938D000BD58AF /* seasm06.se1 */,
+				04A8BA001AB938D000BD58AF /* semom06.se1 */,
+				04A8BA011AB938D000BD58AF /* seplm06.se1 */,
+				04A8BA021AB938D000BD58AF /* seas_48.se1 */,
+				04A8BA031AB938D000BD58AF /* semo_48.se1 */,
+				04A8BA041AB938D000BD58AF /* sepl_48.se1 */,
+				04A8BA051AB938D000BD58AF /* seas_42.se1 */,
+				04A8BA061AB938D000BD58AF /* semo_42.se1 */,
+				04A8BA071AB938D000BD58AF /* sepl_42.se1 */,
+				04A8BA081AB938D000BD58AF /* seas_36.se1 */,
+				04A8BA091AB938D000BD58AF /* semo_36.se1 */,
+				04A8BA0A1AB938D000BD58AF /* sepl_36.se1 */,
+				04A8BA0B1AB938D000BD58AF /* seas_24.se1 */,
+				04A8BA0C1AB938D000BD58AF /* semo_24.se1 */,
+				04A8BA0D1AB938D000BD58AF /* sepl_24.se1 */,
+				04A8BA0E1AB938D000BD58AF /* seas_18.se1 */,
+				04A8BA0F1AB938D100BD58AF /* semo_18.se1 */,
+				04A8BA101AB938D100BD58AF /* sepl_18.se1 */,
+				04A8BA111AB938D100BD58AF /* seas_12.se1 */,
+				04A8BA121AB938D100BD58AF /* semo_12.se1 */,
+				04A8BA131AB938D100BD58AF /* sepl_12.se1 */,
+				04A8BA141AB938D100BD58AF /* seas_06.se1 */,
+				04A8BA151AB938D100BD58AF /* semo_06.se1 */,
+				04A8BA161AB938D100BD58AF /* sepl_06.se1 */,
+				04A8BA171AB938D100BD58AF /* seas_00.se1 */,
+				04A8BA181AB938D100BD58AF /* semo_00.se1 */,
+				04A8BA191AB938D100BD58AF /* sepl_00.se1 */,
+				04A8BA1A1AB938D100BD58AF /* fixstars.cat */,
+				04A8BA1B1AB938D100BD58AF /* LICENSE.TXT */,
+				04A8BA1C1AB938D100BD58AF /* sedeltat.txt.inactive */,
+				04A8BA1D1AB938D100BD58AF /* sefstars.txt */,
+				04A8BA1E1AB938D100BD58AF /* seleapsec.txt */,
+				04A8BA1F1AB938D100BD58AF /* seorbel.txt */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04A8B9D11AB9312C00BD58AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A8B9DA1AB931A600BD58AF /* swephlib.h in Headers */,
+				04A8B9D91AB9319D00BD58AF /* swephexp.h in Headers */,
+				04A8B9D61AB9317E00BD58AF /* sweodef.h in Headers */,
+				04A8B9D81AB9319600BD58AF /* sweph.h in Headers */,
+				04A8B9D71AB9318D00BD58AF /* swepcalc.h in Headers */,
+				04A8B9D51AB9317400BD58AF /* swenut2000a.h in Headers */,
+				04A8B9D41AB9316400BD58AF /* swejpl.h in Headers */,
+				04A8B9DC1AB9325E00BD58AF /* swedll.h in Headers */,
+				04A8B9D31AB9314B00BD58AF /* swehouse.h in Headers */,
+				04A8B9D21AB9313D00BD58AF /* swedate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04A8B98A1AB92FDB00BD58AF /* SwiftEphemeris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A8B99F1AB92FDC00BD58AF /* Build configuration list for PBXNativeTarget "SwiftEphemeris" */;
+			buildPhases = (
+				04A8B9871AB92FDB00BD58AF /* Sources */,
+				04A8B9881AB92FDB00BD58AF /* Frameworks */,
+				04A8B9D11AB9312C00BD58AF /* Headers */,
+				04A8BAE21AC0C8C800BD58AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftEphemeris;
+			productName = SwiftEphemeris;
+			productReference = 04A8B98B1AB92FDB00BD58AF /* libSwiftEphemeris.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		04A8B9951AB92FDC00BD58AF /* SwiftEphemerisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A8B9A21AB92FDC00BD58AF /* Build configuration list for PBXNativeTarget "SwiftEphemerisTests" */;
+			buildPhases = (
+				04A8B9921AB92FDC00BD58AF /* Sources */,
+				04A8B9931AB92FDC00BD58AF /* Frameworks */,
+				04A8B9941AB92FDC00BD58AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A8B9991AB92FDC00BD58AF /* PBXTargetDependency */,
+			);
+			name = SwiftEphemerisTests;
+			productName = SwiftEphemerisTests;
+			productReference = 04A8B9961AB92FDC00BD58AF /* SwiftEphemerisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A8B9831AB92FDB00BD58AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Okanagan College";
+				TargetAttributes = {
+					04A8B98A1AB92FDB00BD58AF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					04A8B9951AB92FDC00BD58AF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 04A8B9861AB92FDB00BD58AF /* Build configuration list for PBXProject "SwiftEphemeris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04A8B9821AB92FDB00BD58AF;
+			productRefGroup = 04A8B98C1AB92FDB00BD58AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A8B98A1AB92FDB00BD58AF /* SwiftEphemeris */,
+				04A8B9951AB92FDC00BD58AF /* SwiftEphemerisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A8B9941AB92FDC00BD58AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A8B9871AB92FDB00BD58AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A8B9C31AB9306200BD58AF /* swecl.c in Sources */,
+				04A8B9C71AB9306200BD58AF /* swejpl.c in Sources */,
+				04A8B9C51AB9306200BD58AF /* swehel.c in Sources */,
+				04A8B9E11AB9365000BD58AF /* sweph.c in Sources */,
+				04A8B9C61AB9306200BD58AF /* swehouse.c in Sources */,
+				04A8B9C81AB9306200BD58AF /* swemmoon.c in Sources */,
+				04A8B9C41AB9306200BD58AF /* swedate.c in Sources */,
+				04A8B9CD1AB9306200BD58AF /* swephlib.c in Sources */,
+				04A8B9C91AB9306200BD58AF /* swemplan.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A8B9921AB92FDC00BD58AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A8B9991AB92FDC00BD58AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A8B98A1AB92FDB00BD58AF /* SwiftEphemeris */;
+			targetProxy = 04A8B9981AB92FDC00BD58AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04A8B99D1AB92FDC00BD58AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A8B99E1AB92FDC00BD58AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A8B9A01AB92FDC00BD58AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		04A8B9A11AB92FDC00BD58AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		04A8B9A31AB92FDC00BD58AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftEphemerisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A8B9A41AB92FDC00BD58AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftEphemerisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A8B9861AB92FDB00BD58AF /* Build configuration list for PBXProject "SwiftEphemeris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A8B99D1AB92FDC00BD58AF /* Debug */,
+				04A8B99E1AB92FDC00BD58AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A8B99F1AB92FDC00BD58AF /* Build configuration list for PBXNativeTarget "SwiftEphemeris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A8B9A01AB92FDC00BD58AF /* Debug */,
+				04A8B9A11AB92FDC00BD58AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A8B9A21AB92FDC00BD58AF /* Build configuration list for PBXNativeTarget "SwiftEphemerisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A8B9A31AB92FDC00BD58AF /* Debug */,
+				04A8B9A41AB92FDC00BD58AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A8B9831AB92FDB00BD58AF /* Project object */;
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star-night-background" translatesAutoresizingMaskIntoConstraints="NO" id="MYf-Ns-upB">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="900"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Waxing Crescent-Full-Size" translatesAutoresizingMaskIntoConstraints="NO" id="kby-5g-7mN">
+                    <rect key="frame" x="-10" y="114" width="340" height="340"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="340" id="5wx-Iq-5KC"/>
+                        <constraint firstAttribute="height" constant="340" id="Hfb-Fs-8fJ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AstroCalendar" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="kId-c2-rCX">
+                    <rect key="frame" x="20" y="231" width="281" height="48"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunar - Solar Event Viewer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZoE-Dr-l7j">
+                    <rect key="frame" x="58" y="274" width="204" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="MYf-Ns-upB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="E4k-Hn-Qn1"/>
+                <constraint firstAttribute="centerX" secondItem="kId-c2-rCX" secondAttribute="centerX" id="Koa-jz-hwk"/>
+                <constraint firstAttribute="centerX" secondItem="kby-5g-7mN" secondAttribute="centerX" id="W9k-cg-IJ7"/>
+                <constraint firstAttribute="trailing" secondItem="MYf-Ns-upB" secondAttribute="trailing" id="WFH-Zs-UXa"/>
+                <constraint firstAttribute="centerY" secondItem="kby-5g-7mN" secondAttribute="centerY" id="Yse-Yf-Bxh"/>
+                <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="fvb-Df-36g"/>
+                <constraint firstAttribute="centerY" secondItem="ZoE-Dr-l7j" secondAttribute="centerY" id="ir0-ZE-pJ1"/>
+                <constraint firstAttribute="centerX" secondItem="ZoE-Dr-l7j" secondAttribute="centerX" id="pgb-0d-7rD"/>
+                <constraint firstItem="MYf-Ns-upB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rSh-Dg-xIP"/>
+                <constraint firstItem="ZoE-Dr-l7j" firstAttribute="top" secondItem="kId-c2-rCX" secondAttribute="bottom" constant="-5" id="sRk-WA-v28"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Waxing Crescent-Full-Size" width="600" height="598"/>
+        <image name="star-night-background" width="600" height="900"/>
+    </resources>
+</document>

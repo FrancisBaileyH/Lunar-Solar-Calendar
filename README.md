@@ -9,6 +9,12 @@ We used the Swiss Ephemeris library by Astro Dienst, allowing you to view all of
 <img src="http://i.imgur.com/YNMDz1M.png"  height=500 />
 
 
+##About
+This repository is a mirror of our project on https://svn.code.sf.net/p/cosc224astrocalendar
+
+##Documentation
+Documentation for this project can be found at https://svn.code.sf.net/p/cosc224astrocalendar/files
+
 ##Licensing
 This project is licensed under the MIT license. 
 

@@ -3,9 +3,10 @@ A lunar solar calendar for the iPhone created by a group of college students. Th
 We used the Swiss Ephemeris library by Astro Dienst, allowing you to view all of this data, offline, in the palm of your hand. 
 
 <img src="http://i.imgur.com/fD8jVoZ.png"  height=500 />
-<img src="http://i.imgur.com/fD8jVoZ.png"  height=500 />
-<img src="http://i.imgur.com/fD8jVoZ.png"  height=500 />
-<img src="http://i.imgur.com/fD8jVoZ.png"  height=500 />
+<img src="http://i.imgur.com/gXnhQ16.png"  height=500 />
+<img src="http://i.imgur.com/9hygLsu.png"  height=500 />
+<img src="http://i.imgur.com/fKIRe6O.png"  height=500 />
+<img src="http://i.imgur.com/YNMDz1M.png"  height=500 />
 
 
 ##Licensing
